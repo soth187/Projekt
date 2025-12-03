@@ -1,0 +1,335 @@
+.ready-recipes {
+      width: 900px;
+      height: 350px;
+      background-color: white;
+      border-radius: 45px;
+      padding-top: 30px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin-right: 40px;
+      box-shadow: 0px 2px 60px -30px rgba(0, 0, 0, 0.5);
+}
+
+.recipes-title {
+      font-size: 24px;
+      font-weight: bold;
+}
+
+.ready-recipes-content {
+      width: 750px;
+      height: 250px;
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 15px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-behavior: smooth;      /* płynne przewijanie */
+}
+
+/* ukrycie paska scrolla */
+.ready-recipes-content::-webkit-scrollbar {
+      display: none;                 /* Chrome, Safari */
+}
+.ready-recipes-content {
+      -ms-overflow-style: none;      /* IE/Edge */
+      scrollbar-width: none;         /* Firefox */
+}
+
+.recipe {
+      width: 175px;
+      height: 250px;
+      flex: 0 0 auto; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.recipe-title {
+      font-size: 16px;
+      font-weight: 500;
+}
+
+.meal-image {
+      width: 170px;
+      height: 220px;
+      border-radius: 35px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+}
+
+.meal-image::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      opacity: 0;
+      transition: opacity 0.15s ease-in-out;
+}
+
+.meal-image::after {
+      content: "ZOBACZ PRZEPIS";
+      position: absolute;
+      top: 50%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+      opacity: 0;
+      transition: opacity 0.15s ease-in-out;
+      filter: brightness(1);
+}
+
+.meal-image:hover::before,
+.meal-image:hover::after {
+      opacity: 1;
+}
+
+
+
+
+
+.go-left {
+      width: 35px;
+      height: 35px;
+      background-image: url(icons/left-arrow.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      left: 15px;
+      top: 50%;
+}
+.go-right {
+      width: 35px;
+      height: 35px;
+      background-image: url(icons/right-arrow.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      right: 15px;
+      top: 50%;
+}
+
+.visible {
+      opacity: 1;
+      pointer-events: auto;
+      transition: opacity 0.3s ease-in-out;
+}
+
+.hidden-arrow {
+      opacity: 0;
+      pointer-events: none; /* nie klikalne */
+      transition: opacity 0.3s ease-in-out;
+}
+
+
+.rice-chicken {
+      background-image: url(images/rice-chicken.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.tortilla {
+      background-image: url(images/tortilla.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.pancakes {
+      background-image: url(images/pancakes.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.brownies {
+      background-image: url(images/brownies.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.makaron {
+      background-image: url(images/makaron.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.jajecznica {
+      background-image: url(images/jajecznica.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.indyk-chilli {
+      background-image: url(images/indyk-chilli.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+}
+
+.salatka {
+      background-image: url(images/salatka.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+}
+
+
+
+
+
+/* 
+
+READY RECIPES POPUP
+
+*/
+
+
+.ready-recipes-popup {
+      width: 1000px;
+      height: 600px;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 45px;
+      box-sizing: border-box;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0px 2px 60px -30px rgba(0, 0, 0, 0.5);
+      overflow-y: auto;
+      overflow-x: hidden;
+      transition: ease-in-out 0.2s;
+}
+
+.recipes-popup-title {
+      font-weight: bold;
+}
+
+.recipes-popup-image {
+      width: 175px;
+      height: 250px;
+      flex: 0 0 auto; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: green;
+      position: absolute;
+      right: 85px;
+      border-radius: 45px;
+}
+
+.popup-recipe {
+      font-size: 20px;
+      margin-right: 25%;
+      margin-top: 15px;
+}
+
+.popup-ingredients-title {
+      font-size: 24px;
+      margin-right: 87%;
+      margin-top: 15px;
+}
+
+.popup-ingredients-list {
+    font-size: 13px;
+    margin-right: 50%;
+    margin-top: 10px;
+    line-height: 1.6;
+    margin-right: 45% !important;
+    width: 500px;
+}
+
+.recipes-popup-todo {
+      font-size: 24px;
+      margin-top: 15px;
+}
+
+.recipe-popup-step-title {
+      font-size: 18px;
+      margin-top: 10px;
+      font-weight: 600;
+}
+
+.recipe-popup-step {
+      margin-bottom: 15px;
+}
+
+.recipe-popup-steps {
+    width: 90%;
+}
+.recipes-popup-ready {
+      font-size: 18px;
+      margin-top: 10px;
+      font-weight: 600;
+}
+
+/* ===== CUSTOM SCROLLBAR FOR THE POPUP ===== */
+
+/* Webkit (Chrome, Edge, Safari) */
+.ready-recipes-popup::-webkit-scrollbar {
+    width: 8px;                   /* szerokość scrolla */
+    margin-left: 15px;            /* NIE działa w webkit, ale zaraz dodam obejście */
+    background: transparent;      /* brak białego tła */
+}
+
+.ready-recipes-popup::-webkit-scrollbar-track {
+    background: transparent;      /* całkowicie przeźroczyste tło */
+}
+
+.ready-recipes-popup::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.25);  /* ciemny uchwyt */
+    border-radius: 10px;
+}
+
+.ready-recipes-popup::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* Firefox */
+.ready-recipes-popup {
+    scrollbar-color: rgba(0,0,0,0.3) transparent; 
+    scrollbar-width: thin;
+}
+
+.ready-recipes-popup-exit {
+      width: 25px;
+      height: 25px;
+      background-image: url(./icons/exit.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      right: 30px;
+      top: 15px;
+      cursor: pointer;
+}
+.ready-recipes-popup-exit:hover {
+      transform: scale(1.1);
+      transition: ease-in-out 0.2s;
+}
+
+.hidden {
+      transform: translateY(-500%);
+}

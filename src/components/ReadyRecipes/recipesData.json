@@ -1,0 +1,369 @@
+[
+  {
+    "id": 1,
+    "title": "Ryż z kurczakiem",
+    "imageClass": "rice-chicken",
+    "shortDescription": "Klasyczny ryż z kurczakiem – szybki, prosty i tak niezawodny, że mógłby być Twoim osobistym asystentem. Tylko, że ten nie pyta o podwyżkę.",
+    "ingredients": [
+      "200 g ryżu (biały, brązowy albo „ten, który akurat znalazłeś w szafce”)",
+      "250 g piersi z kurczaka",
+      "1 łyżka oliwy",
+      "1 ząbek czosnku (lub dwa, jeśli lubisz odstraszać wampiry)",
+      "Przyprawy: sól, pieprz, papryka słodka, curry",
+      "100 ml śmietanki 30% lub jogurtu naturalnego (wersja fit)",
+      "Natka pietruszki (opcjonalnie, dla +10 do prezentacji)"
+    ],
+    "steps": [
+      {
+        "title": "Ugotuj ryż",
+        "text": "Wrzuć ryż do garnka, zalej wodą i gotuj zgodnie z instrukcją. Jeśli zacznie kipieć — to jego sposób na wyrażenie emocji."
+      },
+      {
+        "title": "Pokrój kurczaka",
+        "text": "Kostka, paski, a może w kształt serca? Byle szybko, bo zwierzak sam się nie pokroi."
+      },
+      {
+        "title": "Smażenie, czyli magia kuchni",
+        "text": "Rozgrzej oliwę, dodaj kurczaka i smaż, aż będzie złoty. Złoty — nie spalony."
+      },
+      {
+        "title": "Dodaj czosnek i przyprawy",
+        "text": "Czosnek + sól + pieprz + papryka + curry = sąsiedzi pukają do drzwi."
+      },
+      {
+        "title": "Dodaj śmietankę / jogurt",
+        "text": "Mieszaj aż sos zgęstnieje i oblepi kurczaka jak kołdra zimą."
+      },
+      {
+        "title": "Połącz z ryżem",
+        "text": "Ryż na talerz, kurczak na wierzch, pietruszka na klimat — gotowe."
+      }
+    ],
+    "bottomText": "Proste, sycące danie, które ratuje dzień, gdy lodówka świeci pustkami."
+  },
+
+ {
+  "id": 2,
+  "title": "Tortilla z kurczakiem",
+  "imageClass": "tortilla",
+  "shortDescription": "Tortilla, którą przygotujesz szybciej, niż zdążysz zdecydować czy dziś jesz „coś zdrowego”, czy „coś dobrego”. Na szczęście to danie spełnia obie opcje jednocześnie.",
+  "ingredients": [
+    "2 duże placki tortilli (pszenne lub pełnoziarniste)",
+    "250 g piersi z kurczaka",
+    "1 łyżka oliwy z oliwek",
+    "1/2 czerwonej papryki",
+    "1/2 ogórka świeżego",
+    "Garść mixu sałat lub lodowej",
+    "Kilka pomidorków koktajlowych",
+    "1 mała cebula lub kilka plastrów czerwonej cebuli",
+    "Sos czosnkowy lub jogurtowy (ok. 3 łyżki)",
+    "1 łyżeczka papryki słodkiej",
+    "1/2 łyżeczki papryki ostrej",
+    "1/2 łyżeczki czosnku granulowanego",
+    "Sól i pieprz według uznania",
+    "Opcjonalnie: starty ser (cheddar lub mozzarella)",
+    "Opcjonalnie: kukurydza, fasola czerwona lub jalapeno"
+  ],
+  "steps": [
+    {
+      "title": "Przygotuj kurczaka",
+      "text": "Pokrój pierś z kurczaka w cieniutkie paski. Im cieńsze, tym szybciej się usmażą, a Twoja tortilla nie zamieni się w zapiekankę XXL."
+    },
+    {
+      "title": "Dopraw i podsmaż mięso",
+      "text": "W misce wymieszaj kurczaka z oliwą, papryką słodką, ostrą, czosnkiem granulowanym, solą i pieprzem. Wrzucić na gorącą patelnię i smażyć, aż będzie złoty i pachnący tak, że sąsiedzi zaczną wydzwaniać czy masz gości."
+    },
+    {
+      "title": "Pokrój warzywa",
+      "text": "Pomidorki na połówki, ogórek w paski, paprykę w cienkie paseczki, a cebulę tak, żeby nie przesadzić i nie zrobić sobie tortilli cebulowej. Sałatę porwij w dłoniach – nożyczki zostaw do papieru."
+    },
+    {
+      "title": "Przygotuj placki tortilli",
+      "text": "Placki możesz lekko podgrzać na suchej patelni – stają się wtedy bardziej elastyczne i łatwiej je zawijać. Dodatkowy plus: pachną jak w meksykańskiej knajpie."
+    },
+    {
+      "title": "Złóż tortillę jak profesjonalista",
+      "text": "Na środku placka połóż sos, następnie sałatę, warzywa, usmażonego kurczaka i ewentualnie ser. Pamiętaj: nie przesadź z ilością – tortilla ma się zwinąć, a nie eksplodować jak prezent po wybuchu confetti."
+    },
+    {
+      "title": "Zawiń idealnie",
+      "text": "Złóż dół tortilli do środka, potem obie strony i zwijaj w dół. Jeśli pierwsza nie wyjdzie idealnie – spokojnie. Tego nie ocenia jury MasterChefa."
+    },
+    {
+      "title": "Podsmaż dla chrupkości",
+      "text": "Połóż zawiniętą tortillę na patelni i smaż z obu stron, aż będzie idealnie złocista i lekko chrupiąca. Nie za długo – tortilla to nie tost, ma pachnieć, nie dymić."
+    }
+  ],
+  "bottomText": "Szybka, lekka i turbo smaczna. Idealna, gdy musisz zjeść coś konkretnego, ale nadal udajesz przed sobą, że jesteś fit."
+},
+
+  {
+  "id": 3,
+  "title": "Naleśniki białkowe",
+  "imageClass": "pancakes",
+  "shortDescription": "Miękkie, sycące naleśniki z dużą ilością białka — idealne po treningu, albo gdy próbujesz jeść zdrowo, ale dalej chcesz jeść naleśniki.",
+  "ingredients": [
+    "2 jajka",
+    "1 pełna miarka białka serwatkowego (najlepiej czekoladowego)",
+    "120 ml mleka, napoju roślinnego lub wody",
+    "50 g mąki (pszennej, owsianej lub dowolnej fit)",
+    "Szczypta soli",
+    "Odrobina oleju do smażenia lub spray do patelni",
+    "Opcjonalnie: banan, owoce, syrop klonowy, jogurt, masło orzechowe"
+  ],
+  "steps": [
+    {
+      "title": "Połącz składniki mokre",
+      "text": "Do miski wbij jajka i dolej mleko (lub wodę). Wymieszaj, aż wszystko będzie gładkie jak Twoje wymówki, że dziś jednak nie idziesz na siłownię."
+    },
+    {
+      "title": "Dodaj białko i mąkę",
+      "text": "Wsyp jedną pełną miarkę białka serwatkowego — najlepiej czekoladowego, bo wtedy naleśniki smakują jak cheat meal, mimo że nim nie są. Dodaj mąkę i wymieszaj do uzyskania jednolitej masy."
+    },
+    {
+      "title": "Dopraw dla balansu",
+      "text": "Dodaj szczyptę soli. Jeśli chcesz, możesz dorzucić pół banana rozgniecionego widelcem — nada słodkości i lepszej konsystencji."
+    },
+    {
+      "title": "Rozgrzej patelnię",
+      "text": "Postaw patelnię na średnim ogniu i dodaj dosłownie odrobinę oleju lub użyj sprayu. Dobrze nagrzana patelnia to gwarancja, że nie skończysz z jajecznicą proteinową zamiast naleśników."
+    },
+    {
+      "title": "Usmaż pierwszy naleśnik",
+      "text": "Wlej porcję ciasta na środek patelni i rozprowadź równomiernie. Smaż, aż powierzchnia przestanie być płynna, a brzegi lekko się uniosą. Odwróć jednym szybkim ruchem — im szybszy ruch, tym większa szansa, że nikt nie zobaczy nieidealnego obrotu."
+    },
+    {
+      "title": "Dokończ smażenie",
+      "text": "Podsmaż naleśnik z drugiej strony do lekkiego zarumienienia. Powtórz cały proces z kolejnymi porcjami ciasta, aż patelnia zacznie wyglądać jak po bitwie — to dobry znak."
+    },
+    {
+      "title": "Podawaj jak mistrz",
+      "text": "Podaj z owocami, syropem klonowym, jogurtem lub masłem orzechowym. Im bardziej wygląda jak deser, tym większa satysfakcja, że to wciąż posiłek białkowy."
+    }
+  ],
+  "bottomText": "Idealne na śniadanie, po treningu, albo zawsze wtedy, kiedy chcesz zjeść coś dobrego i udawać, że to zdrowe."
+},
+
+
+{
+  "id": 4,
+  "title": "Brownies proteinowe",
+  "imageClass": "brownies",
+  "shortDescription": "Brownies, które wyglądają jak grzech, a w środku siedzi białko i dobry uczynek.",
+  "ingredients": [
+    "2 dojrzałe banany",
+    "2 jajka",
+    "2 pełne miarki białka serwatkowego (np. czekoladowego)",
+    "2 łyżki kakao",
+    "50 g płatków owsianych lub mąki owsianej",
+    "1 łyżeczka proszku do pieczenia",
+    "Szczypta soli",
+    "Opcjonalnie: garść orzechów, kostki gorzkiej czekolady, słodzik według uznania"
+  ],
+  "steps": [
+    {
+      "title": "Przygotuj piekarnik i formę",
+      "text": "Nastaw piekarnik na 180°C i wyłóż małą formę papierem do pieczenia. Im mniejsza forma, tym grubsze i bardziej efektowne brownies."
+    },
+    {
+      "title": "Zblenduj bazę",
+      "text": "Do miski wrzuć banany, jajka, białko, kakao i płatki owsiane. Zblenduj wszystko na gładką masę. Jeśli wygląda jak czekoladowy koktajl — idziesz w dobrym kierunku."
+    },
+    {
+      "title": "Dodaj proszek i sól",
+      "text": "Dosyp proszek do pieczenia i szczyptę soli. Delikatnie wymieszaj, żeby nie przesadzić z mieszaniem i nie zrobić z tego zupy proteinowej."
+    },
+    {
+      "title": "Wzbogacenie składu",
+      "text": "Jeśli lubisz, dodaj orzechy, kawałki gorzkiej czekolady lub inne dodatki. Im więcej chrupiących elementów, tym większa szansa, że zjesz całą blachę „przez przypadek”."
+    },
+    {
+      "title": "Pieczenie",
+      "text": "Przelej masę do formy, wyrównaj wierzch i piecz około 15–20 minut. Brownies w środku powinny być lekko wilgotne, nie wysuszone jak suchy żart na rodzinnej imprezie."
+    },
+    {
+      "title": "Studzenie i krojenie",
+      "text": "Wyjmij z piekarnika i daj im chwilę odpocząć. Pokrój na kawałki, kiedy już nie są gorące jak Twoje postanowienia noworoczne w styczniu."
+    }
+  ],
+  "bottomText": "Idealne jako deser po treningu, który wygląda jak cheat meal, ale makro się zgadza."
+},
+{
+  "id": 5,
+  "title": "Makaron i warzywa",
+  "imageClass": "makaron",
+  "shortDescription": "Makaron, który wygląda jak „normalny obiad”, a w tle robi robotę: błonnik, białko i lekki sos zamiast śmietankowej bomby.",
+  "ingredients": [
+    "80–100 g makaronu pełnoziarnistego (waga suchego)",
+    "1 puszka tuńczyka w sosie własnym",
+    "1/2 czerwonej papryki",
+    "Garść kukurydzy (z puszki lub mrożonej)",
+    "Kilka pomidorków koktajlowych lub 1 pomidor",
+    "2–3 łyżki jogurtu naturalnego",
+    "1 łyżeczka musztardy (opcjonalnie)",
+    "Sok z 1/4 cytryny",
+    "Sól, pieprz, zioła prowansalskie lub bazylia",
+    "Opcjonalnie: odrobina oliwy z oliwek"
+  ],
+  "steps": [
+    {
+      "title": "Ugotuj makaron",
+      "text": "Ugotuj makaron pełnoziarnisty zgodnie z instrukcją na opakowaniu. Al dente — czyli miękki, ale nadal z charakterem, jak Ty po kawie."
+    },
+    {
+      "title": "Przygotuj warzywa",
+      "text": "Paprykę pokrój w kostkę, pomidorki na połówki, odsącz kukurydzę. Jeśli używasz mrożonych warzyw, możesz je krótko podgotować lub poddusić na patelni."
+    },
+    {
+      "title": "Ogarnij tuńczyka",
+      "text": "Odsącz tuńczyka z nadmiaru zalewy i rozdrobnij widelcem w misce. Nie musi być idealnie — to danie, nie rzeźba w galerii."
+    },
+    {
+      "title": "Zrób lekki sos",
+      "text": "W małej misce wymieszaj jogurt naturalny z sokiem z cytryny, musztardą, solą, pieprzem i ziołami. Jeśli chcesz, dodaj odrobinę oliwy dla smaku."
+    },
+    {
+      "title": "Połącz wszystko",
+      "text": "Do dużej miski wrzuć ciepły makaron, tuńczyka i warzywa. Polej sosem jogurtowym i delikatnie wymieszaj, aż wszystko się zaprzyjaźni."
+    },
+    {
+      "title": "Podanie",
+      "text": "Podawaj od razu lub zapakuj do pojemnika na następny dzień. Na zimno też smakuje zaskakująco dobrze."
+    }
+  ],
+  "bottomText": "Świetne danie do lunchboxa — lekkie, sycące i nie rozwala makro."
+},
+{
+  "id": 6,
+  "title": "Jajecznica FIT",
+  "imageClass": "jajecznica",
+  "shortDescription": "Klasyczna jajecznica, ale w wersji „jem warzywa, mamo, spokojnie”. Szybkie śniadanie z dodatkiem błonnika i koloru.",
+  "ingredients": [
+    "3 jajka",
+    "Kawałek czerwonej lub żółtej papryki",
+    "Kilka pomidorków koktajlowych lub 1 mały pomidor",
+    "Garść świeżego szpinaku lub szczypiorku",
+    "1 łyżeczka masła lub odrobina oliwy",
+    "Sól i pieprz do smaku",
+    "2 kromki pieczywa pełnoziarnistego",
+    "Opcjonalnie: odrobina sera feta lub żółtego"
+  ],
+  "steps": [
+    {
+      "title": "Przygotuj warzywa",
+      "text": "Paprykę pokrój w kostkę, pomidorki na połówki, szpinak lub szczypiorek posiekaj. Im bardziej kolorowo na desce, tym lepiej będzie wyglądał talerz."
+    },
+    {
+      "title": "Podsmaż warzywa",
+      "text": "Na patelni rozgrzej masło lub oliwę. Wrzuć paprykę i chwilę podsmaż, potem dodaj pomidorki i na końcu szpinak. Smaż, aż warzywa lekko zmiękną, ale się nie rozpadną."
+    },
+    {
+      "title": "Roztrzep jajka",
+      "text": "W miseczce rozbij jajka, dodaj sól i pieprz, możesz dorzucić odrobinę mleka dla bardziej puszystej konsystencji. Wymieszaj widelcem lub trzepaczką."
+    },
+    {
+      "title": "Zalej warzywa jajkami",
+      "text": "Wlej masę jajeczną na patelnię z warzywami. Delikatnie mieszaj, aż jajka się zetną — bardziej na kremowo lub bardziej na sucho, jak lubisz."
+    },
+    {
+      "title": "Zarządzaj pieczywem",
+      "text": "W międzyczasie podpiecz pieczywo pełnoziarniste w tosterze lub na suchej patelni. Chrupiące pieczywo + jajecznica = klasyk."
+    },
+    {
+      "title": "Podanie",
+      "text": "Podawaj jajecznicę z warzywami obok pieczywa lub na wierzchu kromek. Jeśli chcesz zaszaleć, posyp całość odrobiną sera feta lub żółtego."
+    }
+  ],
+  "bottomText": "Śniadanie, które wygląda jak weekend, ale zrobisz je w dzień roboczy w mniej niż 10 minut."
+},
+{
+  "id": 7,
+  "title": "Chili z mięsem",
+  "imageClass": "indyk-chilli",
+  "shortDescription": "Jednogarnkowe chili, które robi robotę: dużo białka, dużo smaku i mało zmywania.",
+  "ingredients": [
+    "300 g mielonego indyka lub chudej wołowiny",
+    "1 puszka krojonych pomidorów",
+    "1 puszka czerwonej fasoli",
+    "1 puszka kukurydzy",
+    "1 cebula",
+    "2 ząbki czosnku",
+    "1 łyżka oleju lub oliwy",
+    "1–2 łyżeczki przyprawy do chili lub: papryka słodka, ostra, kumin, oregano",
+    "Sól i pieprz według uznania",
+    "Opcjonalnie: świeża kolendra, jogurt naturalny do podania"
+  ],
+  "steps": [
+    {
+      "title": "Podsmaż cebulę i czosnek",
+      "text": "Posiekaj cebulę i czosnek. Na dużej patelni lub w garnku rozgrzej olej, wrzuć cebulę, a po chwili czosnek. Smaż, aż cebula będzie szklista, a kuchnia zacznie pachnieć jak u sąsiadów, których lubisz."
+    },
+    {
+      "title": "Dodaj mięso",
+      "text": "Wrzuć mięso mielone na patelnię i smaż, rozbijając je łopatką na małe kawałki. Smaż, aż straci surowy kolor."
+    },
+    {
+      "title": "Przypraw jak trzeba",
+      "text": "Dodaj przyprawę do chili lub mieszankę papryki, kuminu, oregano, soli i pieprzu. Nie bój się przypraw — to one robią z mielonego mięsa chili, a nie „mięso z puszką fasoli”."
+    },
+    {
+      "title": "Dodaj warzywa z puszki",
+      "text": "Dodaj krojone pomidory, odcedzoną fasolę i kukurydzę. Wymieszaj wszystko i zagotuj."
+    },
+    {
+      "title": "Duś na spokojnie",
+      "text": "Zmniejsz ogień i duś całość przez 15–20 minut, mieszając od czasu do czasu. Smaki się przegryzają, a Ty możesz w tym czasie udawać, że sprzątasz kuchnię."
+    },
+    {
+      "title": "Podanie",
+      "text": "Podawaj samo, z ryżem, tortillą lub pieczywem pełnoziarnistym. Na wierzchu możesz dodać łyżkę jogurtu naturalnego i świeżą kolendrę."
+    }
+  ],
+  "bottomText": "Idealne meal-prep danie — robisz raz, jesz kilka razy i za każdym razem jest lepsze."
+},
+{
+  "id": 8,
+  "title": "Sałatka z kurczakiem",
+  "imageClass": "salatka",
+  "shortDescription": "Sałatka, która naprawdę potrafi nasycić. Kurczak, awokado, komosa ryżowa – brzmi jak fitness, smakuje jak nagroda.",
+  "ingredients": [
+    "60–80 g suchej komosy ryżowej (quinoa)",
+    "200 g piersi z kurczaka",
+    "1 dojrzałe awokado",
+    "Garść mixu sałat",
+    "Kilka pomidorków koktajlowych",
+    "Kawałek ogórka lub papryki",
+    "1 łyżka oliwy z oliwek",
+    "Sok z 1/2 cytryny lub limonki",
+    "Sól, pieprz, ulubione zioła",
+    "Opcjonalnie: pestki dyni, słonecznika lub orzechy"
+  ],
+  "steps": [
+    {
+      "title": "Ugotuj komosę ryżową",
+      "text": "Przepłucz komosę pod bieżącą wodą, a następnie ugotuj zgodnie z instrukcją na opakowaniu. Po ugotowaniu odstaw do przestygnięcia – sałatka nie lubi wrzątku."
+    },
+    {
+      "title": "Przygotuj kurczaka",
+      "text": "Pokrój pierś z kurczaka w kostkę lub paski, dopraw solą, pieprzem i ulubionymi ziołami. Usmaż na patelni z odrobiną oliwy, aż będzie złoty i soczysty."
+    },
+    {
+      "title": "Pokrój warzywa",
+      "text": "Pomidorki przekrój na pół, ogórka lub paprykę w kostkę. Sałatę porwij na mniejsze kawałki. Awokado pokrój w kostkę tuż przed podaniem, żeby nie ściemniało."
+    },
+    {
+      "title": "Zrób prosty dressing",
+      "text": "W małej miseczce wymieszaj oliwę z oliwek, sok z cytryny, szczyptę soli i pieprzu. Możesz dodać odrobinę miodu lub musztardy, jeśli lubisz bardziej wyrazisty sos."
+    },
+    {
+      "title": "Złóż sałatkę",
+      "text": "Do dużej miski wrzuć komosę, sałatę, warzywa, kawałki kurczaka i awokado. Polej dressingiem i delikatnie wymieszaj, żeby nie zmiażdżyć awokado."
+    },
+    {
+      "title": "Wykończenie",
+      "text": "Posyp pestkami dyni, słonecznika lub posiekanymi orzechami. Dodają chrupnięcia i robią +10 do wartości odżywczej."
+    }
+  ],
+  "bottomText": "Sałatka, po której nie musisz robić kanapki „na później”. Jedno danie, a naprawdę syci."
+}
+]

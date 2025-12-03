@@ -1,0 +1,140 @@
+
+.scanner-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+
+.scanner-top-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.scanner-input {
+  flex: 1;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 50px;
+  background: #eaeaea;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.scanner-btn {
+  border: none;
+  padding: 14px 32px;
+  border-radius: 50px;
+  background: #eaeaea;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.scanner-btn:hover, .scanner-input:hover {
+  transition: ease-in-out 0.2s;
+    background: #cfcfcf;
+}
+
+.scanner-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.scanner-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.product-name {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.product-img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 15px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-img-stock {
+  width: 110px;
+  height: 110px;
+  background-image: url(./icons/diet.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.scanner-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+}
+
+.nutrient {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+.icons {
+  width: 77px;
+  height: 77px;
+}
+
+.fat {
+  background-image: url(./icons/fat.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.protein {
+  background-image: url(./icons/protein.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sugar {
+  background-image: url(./icons/sugar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carb {
+  background-image: url(./icons/carb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kcal {
+  background-image: url(./icons/kcal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nutrient-label {
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+
+

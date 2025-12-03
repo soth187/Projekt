@@ -1,0 +1,132 @@
+/* PRZYCISKI W HEADERZE */
+
+.header-buttons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.header-buttons button {
+  border: none;
+  padding: 10px 32px;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background: white;
+  color: #9b4dff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  transition: 0.2s;
+}
+
+.header-buttons button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.btn-login {
+  background: white;
+}
+
+.btn-register {
+  background: linear-gradient(135deg, #ffffff 0%, #f1e4ff 100%);
+}
+
+/* POPUPY LOGOWANIA I REJESTRACJI */
+
+.auth-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.auth-popup {
+  width: 380px;
+  max-width: 90vw;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 28px 26px 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-popup-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  text-align: center;
+  color: #3a2a5f;
+}
+
+.auth-popup-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #f7f7f7;
+  font-size: 14px;
+  outline: none;
+}
+
+.auth-popup-input:focus {
+  border-color: #9b4dff;
+  box-shadow: 0 0 0 2px rgba(155, 77, 255, 0.15);
+  background: #ffffff;
+}
+
+.auth-popup-button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 999px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, #9b4dff 0%, #ff6fd8 100%);
+  color: #ffffff;
+  box-shadow: 0 8px 18px rgba(155, 77, 255, 0.4);
+  transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+}
+
+.auth-popup-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(155, 77, 255, 0.5);
+  opacity: 0.95;
+}
+
+.auth-popup-exit {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0ebff;
+  color: #7a47d8;
+  transition: 0.15s;
+}
+
+.auth-popup-exit:hover {
+  background: #e0d4ff;
+  transform: scale(1.05);
+}
+
+/* pomocnicze, gdyby gdzieś było użyte */
+.hidden {
+  display: none !important;
+}

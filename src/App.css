@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pattaya&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', system-ui;
+}
+.App {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-position: top right;
+
+  background: #ffffff00;
+ background: linear-gradient(45deg, #ffffff 0%, #9f5aff 100%);
+
+
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+.logo {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: #4B0082;
+}
+
+.section-1 {
+  width: 98%;
+  height: 45vh;
+  display: flex;
+  justify-content: space-around;
+}
+.section-2 {
+  width: 100%;
+  height: 45vh;
+  box-sizing: border-box;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.bmi-wrapper {
+  width: 40%;
+}
+.recipes-wrapper {
+  width: 55%;
+}
+.gif-wrapper {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-left: -100px;
+   margin-bottom: 50px;
+}
+
+.gif-wrapper img {
+  width: 500px;
+  height: auto;
+}
+
+.scanner-wrapper {
+  background: white;
+  border-radius: 40px;
+  padding: 28px 40px;
+  width: 95%;
+  max-width: 900px;
+  margin-left: auto;       
+  margin-right: 0;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
